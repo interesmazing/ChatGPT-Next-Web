@@ -5,7 +5,7 @@ permissions:
 
 on:
   schedule:
-    - cron: "0 5 * * *" # 每天早上五点
+    - cron: "0 21 * * *" # 每天早上五点（东八区）
   workflow_dispatch:
 
 jobs:
